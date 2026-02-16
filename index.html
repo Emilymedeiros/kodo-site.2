@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KODO BRAND | Anime Concept & Streetwear</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        :root { --kodo-red: #ff0033; --kodo-dark: #080808; }
+        body { background-color: var(--kodo-dark); font-family: 'Inter', sans-serif; color: white; scroll-behavior: smooth; overflow-x: hidden; }
+        .font-kodo { font-family: 'Orbitron', sans-serif; }
+        
+        .manga-overlay {
+            background-image: url('https://w0.peakpx.com/wallpaper/447/194/HD-wallpaper-manga-wall-manga-anime.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.15;
+            filter: grayscale(1) contrast(1.5);
+        }
+
+        .glass { background: rgba(8, 8, 8, 0.9); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+
+        .text-stroke {
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+            color: transparent;
+        }
+
+        .product-card { transition: all 0.4s ease; border: 1px solid rgba(255,255,255,0.03); background: #0c0c0c; }
+        .product-card:hover { border-color: var(--kodo-red); transform: translateY(-5px); }
+
+        .btn-kodo { transition: 0.3s; }
+        .btn-kodo:active { transform: scale(0.95); }
+    </style>
+</head>
+<body>
+
+    <div class="bg-red-600 text-white text-[10px] font-black uppercase tracking-[0.4em] py-2 text-center">
+        Drop Limitado: O Despertar + Linha Tática de Mochilas
+    </div>
+
+    <header class="glass sticky top-0 z-50 h-20 flex items-center px-6">
+        <div class="max-w-7xl mx-auto w-full flex justify-between items-center">
+            <div class="font-kodo text-3xl italic tracking-tighter">KODO<span class="text-[#ff0033]">.</span></div>
+            
+            <nav class="hidden md:flex gap-8 text-[11px] font-bold uppercase tracking-widest italic">
+                <a href="#loja" class="hover:text-red-500 transition">Coleções</a>
+                <a href="https://www.instagram.com/emily_medeiiros?igsh=MTduY2Y2d2x5c2JtbQ%3D%3D&utm_source=qr" target="_blank" class="hover:text-red-500 transition underline underline-offset-4 decoration-red-500">@emily_medeiiros</a>
+                <a href="https://wa.me/5543996177415" class="text-red-500">WhatsApp</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <a href="https://www.instagram.com/emily_medeiiros?igsh=MTduY2Y2d2x5c2JtbQ%3D%3D&utm_source=qr" target="_blank" class="text-white hover:text-red-500 transition">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative h-[90vh] flex items-center justify-center">
+        <div class="absolute inset-0 manga-overlay z-0"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black z-10"></div>
+        
+        <div class="relative z-20 text-center px-6">
+            <h2 class="text-red-500 font-bold tracking-[1em] uppercase text-[10px] mb-4">Conceito Autoral Anime</h2>
+            <h1 class="font-kodo text-5xl md:text-[120px] leading-none tracking-tighter mb-6 uppercase">
+                FRAGMENTOS <br> <span class="text-stroke italic">DO DESTINO</span>
+            </h1>
+            <p class="max-w-xl mx-auto text-gray-400 text-sm md:text-lg mb-10 font-light italic">
+                Vestuário autoral por Emily Medeiros. Criado para quem carrega a alma dos animes no streetwear.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#loja" class="bg-red-600 px-10 py-4 font-black text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all btn-kodo shadow-lg shadow-red-900/40">Garantir Drop 01</a>
+                <a href="https://www.instagram.com/emily_medeiiros?igsh=MTduY2Y2d2x5c2JtbQ%3D%3D&utm_source=qr" target="_blank" class="bg-transparent border border-white px-10 py-4 font-black text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all btn-kodo">Siga no Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <main id="loja" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex justify-between items-end mb-12 border-b border-white/10 pb-6 text-center md:text-left">
+            <h3 class="font-kodo text-3xl uppercase italic">Drop #01 <span class="text-red-500">Despertar</span></h3>
+            <span class="hidden md:block text-gray-500 text-xs uppercase tracking-widest italic">Emily Medeiros Original Design</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <script>
+                const zap = "5543996177415";
+                const produtos = [
+                    { tipo: 'Camiseta', nome: "Vazio Primordial", preco: "149", cor: "Preto", img: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a" },
+                    { tipo: 'Mochila', nome: "Mochila Shinobi Tech", preco: "289", cor: "Tactical Black", img: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62" },
+                    { tipo: 'Camiseta', nome: "Ascensão Azul", preco: "159", cor: "Cobalto", img: "https://images.unsplash.com/photo-1576566588028-4147f3842f27" },
+                    { tipo: 'Camiseta', nome: "Eclipse Sangrento", preco: "149", cor: "Vermelho", img: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990" },
+                    { tipo: 'Mochila', nome: "KODO Urban Roll", preco: "320", cor: "Dark Grey", img: "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3" },
+                    { tipo: 'Camiseta', nome: "Sombra do Ronin", preco: "139", cor: "Preto", img: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c" },
+                    { tipo: 'Camiseta', nome: "Fragmento Eterno", preco: "149", cor: "Cinza", img: "https://images.unsplash.com/photo-1527719327859-c6ce80353573" },
+                    { tipo: 'Mochila', nome: "Bag Tática K-01", preco: "259", cor: "Camo Black", img: "https://images.unsplash.com/photo-1581605405669-fcdf81165afa" },
+                    { tipo: 'Camiseta', nome: "Chama Interior", preco: "149", cor: "Laranja", img: "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8" },
+                    { tipo: 'Camiseta', nome: "Vontade de Fogo", preco: "159", cor: "Bordô", img: "https://images.unsplash.com/photo-1571945153237-4929e783ee4a" },
+                    { tipo: 'Camiseta', nome: "Renascimento", preco: "159", cor: "Branco", img: "https://images.unsplash.com/photo-1555680202-c86f0e12f086" },
+                    { tipo: 'Camiseta', nome: "Instinto Superior", preco: "149", cor: "Verde Teal", img: "https://images.unsplash.com/photo-1562157873-818bc0726f68" }
+                ];
+
+                document.write(produtos.map(p => `
+                    <div class="product-card p-4 group">
+                        <div class="relative overflow-hidden aspect-square mb-6 bg-zinc-900">
+                            <img src="${p.img}?q=80&w=800" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500">
+                            <div class="absolute top-0 left-0 bg-red-600 text-[8px] font-black uppercase px-2 py-1">${p.tipo}</div>
+                        </div>
+                        <h4 class="font-kodo text-xs uppercase tracking-tighter mb-1">${p.nome}</h4>
+                        <p class="text-[10px] text-gray-500 uppercase mb-4 tracking-widest italic font-light">${p.cor}</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-black text-sm italic">R$ ${p.preco}</span>
+                            <button onclick="window.open('https://wa.me/${zap}?text=Olá+Emily!+Vi+o+site+e+quero+o+item:+${p.nome}+(${p.tipo})', '_blank')" 
+                                    class="bg-white text-black px-4 py-2 text-[9px] font-black uppercase hover:bg-red-600 hover:text-white transition btn-kodo">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                `).join(''));
+            </script>
+        </div>
+    </main>
+
+    <footer class="bg-zinc-950 py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
+            <div>
+                <div class="font-kodo text-4xl italic mb-6">KODO<span class="text-red-500">.</span></div>
+                <p class="text-xs text-gray-500 leading-relaxed uppercase tracking-tighter">
+                    Vestuário autoral por <strong>Emily Medeiros</strong>. Inspirado na estética dos animes. 
+                    Design independente para quem carrega o peso do destino.
+                </p>
+            </div>
+            <div class="flex flex-col gap-4 text-[10px] font-bold uppercase tracking-[0.3em]">
+                <a href="https://www.instagram.com/emily_medeiiros?igsh=MTduY2Y2d2x5c2JtbQ%3D%3D&utm_source=qr" target="_blank" class="hover:text-red-500 transition">Instagram: @emily_medeiiros</a>
+                <a href="https://wa.me/5543996177415" class="hover:text-red-500 text-red-500 transition underline underline-offset-4">WhatsApp: (43) 99617-7415</a>
+            </div>
+            <div class="md:text-right">
+                <p class="text-[10px] text-gray-700 uppercase tracking-widest italic">Emily Medeiros Original • 2026</p>
+                <p class="text-[8px] text-gray-800 mt-2 tracking-widest uppercase">© KODO BRAND. SEM PERSONAGENS, APENAS A ALMA.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
